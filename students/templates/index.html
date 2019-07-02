@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+{% block title %}
+    <title>The students</title>
+{% endblock %}
+{% block content %}
+    <h1>Attendance for {{ num_courses.course_name }} Course</h1>
+
+    <ul>
+        <li><strong>Courses:</strong> {{ num_courses }}</li>
+    </ul>
+{% endblock %}
